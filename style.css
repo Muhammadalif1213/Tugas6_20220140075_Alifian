@@ -1,0 +1,127 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-family: courier;
+    background-image: url(https://i.pinimg.com/564x/22/f2/77/22f2771e38aa63743943e1250845357f.jpg);
+}
+
+.wrapper {
+    width: auto;
+    margin: auto;
+    position: relative;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 500px;
+    font-family: courier;
+    color: #ff0000;
+}
+h2 {
+    width:auto ;
+    height: fit-content;
+    background-color: #A80038;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    font-family: courier;
+    float: right;
+}
+
+nav {
+    width: auto;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: rgb(34, 34, 34);
+    z-index: 1;
+    border-bottom:4px solid #A80038;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+video{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+audio{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#music1{
+    display: none;
+}
+
+#music2{
+    display: none;
+}
+
+#music3{
+    display: none;
+}
+
+#music4{
+    display: none;
+}
+
+.music-container {
+    background-color: #f0f0f000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 0.6s ease;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .music-container:hover {
+      transform: scale(110%);
+  }
